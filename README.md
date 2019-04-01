@@ -10,3 +10,7 @@ remaining question:
 1. how to display topology in web
 2. how to display chinese words properly in web
 3. ....
+
+
+generate ssh-key: 
+ssh-keygen -t rsa -C "your_email@example.com"
