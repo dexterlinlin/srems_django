@@ -24,16 +24,22 @@
 ---
 
 ## **二、开发环境准备** ##：
-## 1.安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
+## 1. 安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
-## 2.安装Django ##
+## 2. 安装Django ##
+
+
+
    
    打开Anaconda Promt：
    activate yourvirtualenv
    pip install django 
    pip install -r requirements.txt
    
-## 3.安装VUE脚手架 ##
+## 3. 安装VUE脚手架 ##
+
+
+
    打开cmd
    npm install -g cnpm --registry=https://registry.npm.taobao.org 
    cnpm install -g vue-cli
@@ -41,7 +47,7 @@
 ---
    
 ## **三、初始化项目** ##:
-## 1.安装django脚手架 ##:
+## 1. 安装django脚手架 ##:
 
 
 
@@ -53,7 +59,7 @@
    python manage.py startapp sresvr
    
 
-## 2.安装vue脚手架 ##:
+## 2. 安装vue脚手架 ##:
 
 
 
