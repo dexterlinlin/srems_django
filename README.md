@@ -40,7 +40,7 @@
 
 ## ** 后记、规划 ** ## : 
 ```flow
-st=>strat:开始
+st=>start:开始
 op1 =>operation:搭建项目骨架
 op2 =>operation:neo4j建模(pymodel/ogm)
 op3 =>operation:vue增删改neo4j
