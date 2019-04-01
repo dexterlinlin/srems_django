@@ -18,7 +18,7 @@
    
 ---
 
-# **二、开发环境准备** #：
+# **二、开发环境准备** ##：
 ## 1、安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
 ## 2、安装Django ##
@@ -58,4 +58,4 @@ clear neo4j database：
   detach delete n
   
 markdown 基本语法：https://www.jianshu.com/p/191d1e21f7ed
-
+cat xxxx | grep -iE xxx
