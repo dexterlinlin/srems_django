@@ -41,12 +41,12 @@
 ## ** 后记、规划 ** ## : 
 ```flow
 st=>start:开始
-op1 =>operation:搭建项目骨架
-op2 =>operation:neo4j建模(pymodel/ogm)
-op3 =>operation:vue增删改neo4j
-op4 =>operation:d3展示neo4j
-op5 =>operation:d3增删改neo4j
-op6 =>.....
+op1=>operation:搭建项目骨架
+op2=>operation:neo4j建模(pymodel/ogm)
+op3=>operation:vue增删改neo4j
+op4=>operation:d3展示neo4j
+op5=>operation:d3增删改neo4j
+op6=>.....
 str ->op1 -> op2 -> op3 -> op4 -> op5 -> op6
 &```
 
