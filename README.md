@@ -4,6 +4,8 @@ WebFramework:bottle django
 DB: Neo4j (https://neo4j.com/docs/)
 OGM: pyneo4jogm
 
+Later： spark + neo4j
+
 Export requirement： pip freeze > requirements.txt
 
 remaining question: 
@@ -19,3 +21,4 @@ ssh-keygen -t rsa -C "your_email@example.com"
 clear neo4j database：
   match (n)
   detach delete n
+
