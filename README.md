@@ -15,4 +15,7 @@ remaining question:
 generate ssh-key: 
 ssh-keygen -t rsa -C "your_email@example.com"
 
-
+2019-4-1：
+clear neo4j database：
+  match (n)
+  detach delete n
