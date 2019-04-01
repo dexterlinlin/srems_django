@@ -26,7 +26,7 @@
    
 ---
 
-## **二、开发环境准备** ##：
+## **二、开发环境准备** ##：[参考链接](https://www.jianshu.com/p/9093894d2614)
 ## - 安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
 ## - 安装Django ##
@@ -73,6 +73,10 @@
    cnpm install
    cnpm run build
    
+## - 配置django url路径 ##:
+   打开Anaconda Prompt
+   cd /d E:\Code\srems\sreserver\sreserver
+      
    
 
 
