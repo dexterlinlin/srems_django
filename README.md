@@ -27,9 +27,9 @@
 ---
 
 ## **二、开发环境准备** ##：
-## 1. 安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
+## - 安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
-## 2. 安装Django ##
+## - 安装Django ##
 
 
 
@@ -39,7 +39,7 @@
    pip install django 
    pip install -r requirements.txt
    
-## 3. 安装VUE脚手架 ##
+## - 安装VUE脚手架 ##
 
 
 
@@ -50,7 +50,7 @@
 ---
    
 ## **三、初始化项目** ##:
-## 1. 安装django脚手架 ##:
+## - 安装django脚手架 ##:
 
 
 
@@ -62,7 +62,7 @@
    python manage.py startapp sresvr
    
 
-## 2. 安装vue脚手架 ##:
+## - 安装vue脚手架 ##:
 
 
 
