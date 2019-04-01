@@ -38,8 +38,13 @@
    npm install -g cnpm --registry=https://registry.npm.taobao.org 
    cnpm install -g vue-cli
    
+---
+   
 ## **三、初始化项目** ##:
 ## 1.安装django脚手架 ##:
+
+
+
    打开Anaconda Promt：
    activate yourvirtualenv
    cd /d E:\Code\srems
@@ -49,6 +54,9 @@
    
 
 ## 2.安装vue脚手架 ##:
+
+
+
    打开cmd
    cd /d E:\Code\srems\sreserver
    vue-init webpack sreclient
