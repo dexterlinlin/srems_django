@@ -30,17 +30,19 @@
 ## 1.安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
 ## 2.安装Django ##
-   (''')
+   (```)
    pip install django 
    pip install -r requirements.txt
-   (''')
+   (```)
 ## 3.安装VUE脚手架 ##
+   (```)
    npm install -g cnpm --registry=https://registry.npm.taobao.org 
    cnpm install -g vue-cli
+   (```)
 
 
 # ** 后记、规划 ** ## : 
-'''flow
+```flow
 st=>strat:开始
 op1 =>operation:搭建项目骨架
 op2 =>operation:neo4j建模(pymodel/ogm)
@@ -49,7 +51,7 @@ op4 =>operation:d3展示neo4j
 op5 =>operation:d3增删改neo4j
 op6 =>.....
 str ->op1 -> op2 -> op3 -> op4 -> op5 -> op6
-&'''
+&```
 
 ---
 
