@@ -1,7 +1,7 @@
 2019-3-31:
-FrontEnd:VueJS
-WebFramework:bottle
-DB: Neo4j
+FrontEnd:VueJS d3
+WebFramework:bottle django
+DB: Neo4j (https://neo4j.com/docs/)
 OGM: pyneo4jogm
 
 Export requirement： pip freeze > requirements.txt
@@ -14,3 +14,5 @@ remaining question:
 
 generate ssh-key: 
 ssh-keygen -t rsa -C "your_email@example.com"
+
+
