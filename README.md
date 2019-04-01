@@ -12,10 +12,7 @@
 ## - **对象图形框架**：
     py2neo.ogm
 ## - **数据库**：
-
-
-
-     <a href="https://neo4j.com/docs/" target="_blank">neo4j</a>
+     [neo4j](https://neo4j.com/docs/)
      mysql
 ## - **分布式**：
 
@@ -26,7 +23,7 @@
    
 ---
 
-# **二、开发环境准备** ##：
+## **二、开发环境准备** ##：
 ## 1.安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
 ## 2.安装Django ##
@@ -41,7 +38,7 @@
    (```)
 
 
-# ** 后记、规划 ** ## : 
+## ** 后记、规划 ** ## : 
 ```flow
 st=>strat:开始
 op1 =>operation:搭建项目骨架
