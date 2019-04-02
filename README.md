@@ -1,6 +1,9 @@
 # 一 技术栈选择
 ## - **前端Vue的所有技术栈**： 
-   vue2 + vuex + vue-router + webpack + d3
+    vue
+    elementUI
+    d3
+    axios 
 ## - **UI库**： 
    element-ui
 ## - **网络请求**：
@@ -18,26 +21,25 @@
      [neo4j](https://neo4j.com/docs/)
      mysql
 ## - **分布式**：
-
-
-
-   Apache Flink
-   Spark
+    
+    
+    
+    Apache Flink
+    
+    Kafka
+    
+    Hadoop Yarn
    
 ---
 
 # **二、开发环境准备** ：[参考链接](https://www.jianshu.com/p/9093894d2614)
 ## - 安装 <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> ##
    
-## - 安装Django ##
-
-
-
-   
-   打开Anaconda Promt：
-   activate yourvirtualenv
-   pip install django 
-   pip install -r requirements.txt
+## - 安装Django ##   
+    打开Anaconda Promt：
+    activate yourvirtualenv
+    pip install django 
+    pip install -r requirements.txt
    
 ## - 安装VUE脚手架 ##
     打开cmd
@@ -51,14 +53,14 @@
     打开Anaconda Promt：
     activate yourvirtualenv
     cd /d E:\Code\srems
-    django-admin startproject sreserver
-    cd sreserver
+    django-admin startproject sreapp
+    cd sreapp
     python manage.py startapp sresvr
    
 
 ## - 安装vue脚手架 : 
     打开cmd
-    cd /d E:\Code\srems\sreserver
+    cd /d E:\Code\srems\sreapp
     vue-init webpack sreclient
     cd sreclient
     cnpm install
@@ -66,7 +68,7 @@
    
 ## - 配置django url路径 :
     打开Anaconda Prompt
-    cd /d E:\Code\srems\sreserver\sreserver
+    cd /d E:\Code\srems\sreapp\sreserver
       
    
 
@@ -74,8 +76,8 @@
 #  **后记/规划**  : 
     ```flow
     st=>start:开始
-    op1=>operation:搭建项目骨架
-    op2=>operation:neo4j建模(pymodel/ogm)
+    op1=>operation:搭建项目骨架            doing 
+    op2=>operation:neo4j建模(pymodel/ogm) doing
     op3=>operation:vue增删改neo4j
     op4=>operation:d3展示neo4j
     op5=>operation:d3增删改neo4j
