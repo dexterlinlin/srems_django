@@ -63,6 +63,7 @@
     cd /d E:\Code\srems\sreapp
     vue-init webpack sreclient
     cd sreclient
+    cnpm install element-ui --save-dev
     cnpm install
     cnpm run build
    
@@ -115,3 +116,6 @@ clear neo4j database：
   
 markdown 基本语法：https://www.jianshu.com/p/191d1e21f7ed
 cat xxxx | grep -iE xxx~~
+
+
+Pycharm一直Indexing：File-Invalidate/Restart
