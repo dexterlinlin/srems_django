@@ -10,8 +10,15 @@
    axios
 ## - **前端脚手架构建工具**：
    vue-cli
+   
+## - **联调工具**:
+    Postman:https://dl.pstmn.io/download/latest/win64
+
 ## - **后端技术栈**：
-   Python + Django 
+    Django
+    restfulframework:
+       https://www.django-rest-framework.org/#requirements
+       https://www.cnblogs.com/wuxl360/p/5787898.html
 ## - **对象图形框架**：
     py2neo.ogm
 ## - **数据库**：
@@ -20,6 +27,11 @@
 
      [neo4j](https://neo4j.com/docs/)
      mysql
+     
+## - **数据库连接池**
+    sqlalchemy 
+      https://my.oschina.net/gongju/blog/203142
+      https://blog.csdn.net/zhutoucnn/article/details/45832103
 ## - **分布式**：
     
     
@@ -66,11 +78,16 @@
     cnpm install element-ui --save-dev
     cnpm install
     cnpm run build
+
+## - 安裝<a href='https://www.cnblogs.com/libin-1/p/6607945.html' target="_blank">axios</a> 
+    打开cmd
+    cd /d E:\Code\srems\sreapp\sreclient
+    cnpm install axios
    
 ## - 配置django url路径 :
     打开Anaconda Prompt
     cd /d E:\Code\srems\sreapp\sreserver
-      
+    
    
 
 
@@ -89,33 +106,37 @@
 ---
 
 
-~~杂项(待整理):
-2019-3-31:
-FrontEnd:VueJS d3
-WebFramework:bottle django
-DB: Neo4j (https://neo4j.com/docs/)
-OGM: pyneo4jogm
+#  杂项(待整理):
+## 2019-3-31:
+    FrontEnd:VueJS d3
+    WebFramework:bottle django
+    DB: Neo4j (https://neo4j.com/docs/)
+    OGM: pyneo4jogm
 
-Later： spark + neo4j
+    Later： spark + neo4j
 
-Export requirement： pip freeze > requirements.txt
+    Export requirement： pip freeze > requirements.txt
 
-remaining question: 
-1. how to display topology in web
-2. how to display chinese words properly in web
-3. ....
-
-
-generate ssh-key: 
-ssh-keygen -t rsa -C "your_email@example.com"
-
-2019-4-1：
-clear neo4j database：
-  match (n)
-  detach delete n
-  
-markdown 基本语法：https://www.jianshu.com/p/191d1e21f7ed
-cat xxxx | grep -iE xxx~~
+    remaining question: 
+    1. how to display topology in web
+    2. how to display chinese words properly in web
+    3. ....
 
 
-Pycharm一直Indexing：File-Invalidate/Restart
+    generate ssh-key: 
+    ssh-keygen -t rsa -C "your_email@example.com"
+    
+    2019-4-1：
+    clear neo4j database：
+      match (n)
+      detach delete n
+      
+    markdown 基本语法：https://www.jianshu.com/p/191d1e21f7ed
+    cat xxxx | grep -iE xxx~~
+    
+    
+    Pycharm一直Indexing：File-Invalidate/Restart
+    使用cmder替代cmd：https://cmder.net/
+    
+    Python设计模式:https://www.cnblogs.com/Liqiongyu/p/5916710.html
+    

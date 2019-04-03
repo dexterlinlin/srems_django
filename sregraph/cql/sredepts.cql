@@ -55,7 +55,7 @@ CREATE
   (zhoujihong) - [:MANAGE{role:"LM"}] -> (utraffic_atomrouter),
   (chenlening) - [:MANAGE{role:"LM"}] -> (utraffic_sdn)
 
-// PDT -- LM
+// SPU/PDT -- LM
 CREATE
   (zhoujihong) - [:EMPLOYEEOF {title:"LM",team:"Quality Module"}] -> (uTraffic),
   (zhoujihong) - [:EMPLOYEEOF {title:"PD",team:"5G PTN"}] -> (nceanalyze),
